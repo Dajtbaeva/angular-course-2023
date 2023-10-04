@@ -6,6 +6,7 @@ import { IComment } from '../models/comment';
 @Injectable({
   providedIn: 'root',
 })
+// used jsonplaceholder for getting data
 export class CommentsService {
   private URL = 'https://jsonplaceholder.typicode.com/comments';
   constructor(private http: HttpClient) {}
